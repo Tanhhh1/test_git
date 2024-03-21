@@ -1,0 +1,30 @@
+.service-item{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ship{
+    background: #ecb9b9;
+}
+.return{
+    background: #9ca3e0;
+}
+.payment{
+    background: #92e7b7;
+}
+.service-item span i{
+    font-size: 2.2rem;
+    padding: 10px;
+}
+.service-item h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.service-item p{
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: #222;
+}
